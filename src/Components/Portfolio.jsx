@@ -26,7 +26,7 @@ function Portfolio() {
 					<div className="txts">
 						<h4>My Google clone</h4>
 						<p>
-							This is a fully functional google clone I built. I has the ability
+							This is a fully functional google clone I built. It has the ability
 							to show search results which are similar to google search results.
 							Built with google's own api.
 						</p>
