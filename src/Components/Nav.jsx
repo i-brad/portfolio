@@ -4,7 +4,7 @@ function Nav() {
 			<img src="./logo.png" alt="" />
 			<ul>
 				<li>
-					<a href="#portfolio">Porfolio</a>
+					<a href="#portfolio">Portfolio</a>
 				</li>
 				<li>
 					<a href="#skills">Skills</a>
