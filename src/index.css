@@ -345,6 +345,10 @@ footer > div {
 }
 
 @media (max-width: 500px) {
+.nav li{padding: 5px;}
+.nav .nav__ctr {
+	display: none;
+}
 	.hrd__tx h1 {
 		font-size: 40px;
 	}
