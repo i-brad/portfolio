@@ -20,7 +20,7 @@ function About() {
 					full-stack developer.
 				</p>
 				<p>
-					In my year of learning, I have been able to work voluntarily, work
+					In my years of learning, I have been able to work voluntarily, work
 					with teams, work as an intern and lots more. I currently work as a
 					freelance developer with some selected freelance client. Build
 					personal projects on my free time. Improve my UI/UX skill and
