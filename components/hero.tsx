@@ -1,9 +1,9 @@
 "use client";
 
+import { site } from "@/lib/site";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { site } from "@/lib/site";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -18,19 +18,6 @@ export function Hero() {
   return (
     <section className="paper relative overflow-hidden border-b border-border">
       <div className="container-page flex min-h-[88vh] flex-col items-center justify-center py-32 text-center">
-        <motion.div
-          {...rise(0)}
-          className="mb-8 inline-flex items-center gap-2.5 rounded-full border border-border bg-surface/70 px-4 py-1.5"
-        >
-          <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-70" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-          </span>
-          <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
-            {site.role} · Available for select work
-          </span>
-        </motion.div>
-
         <h1 className="max-w-4xl font-display text-display-lg font-normal tracking-tight text-ink">
           <motion.span {...rise(0.08)} className="block text-balance">
             Building products that people
