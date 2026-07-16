@@ -71,6 +71,48 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "education-suite",
+    title: "Education Suite",
+    tagline: "A product suite for universities, institutions, and schools",
+    description:
+      "A contract build for the learning platforms that run modern institutions — a full LMS, a MOOC experience, admin tooling, and secure exam proctoring, unified into one coherent product suite.",
+    role: "Frontend Engineer",
+    year: "2026—Now",
+    featured: false,
+    technologies: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+    outcome:
+      "Currently building the front end across LMS, MOOC, admin, and proctoring surfaces.",
+    accent: "#2F6FED",
+    caseStudy: {
+      problem:
+        "Universities and institutions don't run on one app — they run on a fleet of them: a learning management system, open-course delivery, administrative back-office, and exam integrity. Too often those live as disconnected tools with mismatched interfaces, which is exactly the friction students and staff feel every day.",
+      research:
+        "The through-line across every surface is trust and clarity. Students need coursework that's legible and never loses their progress; administrators need control without complexity; and proctored exams have to be secure without feeling hostile. Getting the front end right across all four is as much a consistency problem as a feature one.",
+      approach:
+        "I'm building the front end across the suite — LMS, MOOC, admin, and exam proctoring — in Next.js, React, and TypeScript, working toward one shared design language and component system so each surface feels like part of the same product rather than four separate ones.",
+      decisions: [
+        {
+          title: "One system across four surfaces",
+          body: "Shared components and patterns mean the LMS, MOOC, admin, and proctoring flows stay consistent — less to learn for users, less to maintain for the team.",
+        },
+        {
+          title: "Clarity for high-stakes moments",
+          body: "Exams and grading are high-stakes. The interface aims to make state obvious and mistakes hard, so people trust what's on screen when it matters most.",
+        },
+        {
+          title: "Built for institutions, not just individuals",
+          body: "The suite serves universities, organisations, and schools at once, so the front end is designed around roles and scale from the start rather than retrofitted.",
+        },
+      ],
+      challenges:
+        "This one is still being written. The current focus is unifying the experience across a broad surface area — a learning platform, open courses, admin, and proctoring — without letting any single one drift out of sync.",
+      outcome:
+        "The suite is in active development. This case study will deepen as the surfaces ship and mature.",
+      reflection:
+        "Big platforms feel simple only when the pieces agree with each other. Most of the work here is quiet consistency — the kind users never notice because nothing ever feels out of place.",
+    },
+  },
+  {
     slug: "fend-onchain",
     title: "Fend",
     tagline: "Sailfish, Thrustpad, and the tooling around them",

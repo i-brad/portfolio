@@ -5,7 +5,7 @@ import { Reveal, Stagger, StaggerItem } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { Skills } from "@/components/skills";
 import { featuredProjects } from "@/lib/projects";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
 const principles = [
@@ -137,6 +137,48 @@ export default function HomePage() {
                   className="transition-transform group-hover:translate-x-1"
                 />
               </Link>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Community */}
+      <section className="border-y border-border bg-surface/30">
+        <div className="container-page py-24 sm:py-32">
+          <div className="grid gap-14 lg:grid-cols-[0.9fr_1.1fr]">
+            <SectionHeading
+              align="left"
+              eyebrow="Community"
+              title="Contributing to DevMeets."
+              description="Beyond client and product work, I contribute to DevMeets — a community where developers meet, share, and build together."
+            />
+            <Reveal>
+              <a
+                href="https://meets.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex h-full flex-col justify-between gap-8 rounded-3xl border border-border bg-bg p-8 transition-colors hover:border-accent/40 sm:p-10"
+              >
+                <div>
+                  <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
+                    Contributor
+                  </p>
+                  <h3 className="mt-4 font-display text-2xl font-semibold tracking-tight">
+                    DevMeets
+                  </h3>
+                  <p className="mt-3 leading-relaxed text-muted">
+                    Helping grow a space where developers connect, learn from
+                    one another, and ship ideas into the open.
+                  </p>
+                </div>
+                <span className="inline-flex items-center gap-2 text-sm font-medium text-ink">
+                  <span className="link-underline">meets.sh</span>
+                  <ArrowUpRight
+                    size={16}
+                    className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  />
+                </span>
+              </a>
             </Reveal>
           </div>
         </div>
