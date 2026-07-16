@@ -6,6 +6,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { CommandPalette } from "@/components/command-palette";
+import { Analytics } from "@vercel/analytics/next";
 
 const serif = Newsreader({
   subsets: ["latin"],
@@ -150,6 +151,7 @@ export default function RootLayout({
         <Footer />
         <ScrollToTop />
         <CommandPalette />
+        <Analytics />
       </body>
     </html>
   );
