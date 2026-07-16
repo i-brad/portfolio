@@ -242,7 +242,7 @@ export const projects: Project[] = [
     featured: true,
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "GraphQL"],
     outcome:
-      "Improved application performance by 25%, lifting SEO and engagement.",
+      "Improved application performance by 25%+, lifting SEO and engagement.",
     accent: "#E0952B",
     caseStudy: {
       problem:
@@ -250,7 +250,7 @@ export const projects: Project[] = [
       research:
         "Profiling the app surfaced two problems at once: pricing logic that ignored the user's location, and a front end heavy enough to hurt both SEO and engagement. Fixing perception (speed) and relevance (localized pricing) together would compound.",
       approach:
-        "I led development of a multi-currency platform with location-based pricing, analytics dashboards, and role-based access, then went hard on performance — trimming the critical path so pages felt instant and ranked better.",
+        "I led frontend development of a multi-currency platform with location-based pricing, analytics dashboards, and role-based access, then went hard on performance — trimming the critical path so pages felt instant and ranked better.",
       decisions: [
         {
           title: "Location-aware pricing as a first-class concept",
@@ -262,17 +262,17 @@ export const projects: Project[] = [
         },
         {
           title: "Performance as a product feature",
-          body: "I treated the 25% performance gain as a feature, not a chore — faster pages measurably improved SEO and engagement.",
+          body: "I treated the 25%+ performance gain as a feature, not a chore — faster pages measurably improved SEO and engagement.",
         },
       ],
       challenges:
         "Balancing rich dashboards and analytics against speed meant constant trade-offs. I leaned on careful data fetching and rendering strategy so the experience stayed fast without stripping capability.",
       outcome:
-        "The platform improved application performance by 25%, boosting SEO and user engagement, and shipped fintech flows including bill payments, trading, and crypto integrations alongside the core store.",
+        "The platform improved application performance by 25%+, boosting SEO and user engagement, and shipped fintech flows including bill payments, trading, and crypto integrations alongside the core store.",
       reflection:
         "Performance is a feature users feel before they can name it. The most impactful work here wasn't visible on screen — it was everything I removed from the critical path.",
       metrics: [
-        { label: "Performance gain", value: "25%" },
+        { label: "Performance gain", value: "25%+" },
         { label: "Currencies", value: "Multi" },
         { label: "Surfaces", value: "Store + Admin" },
       ],
