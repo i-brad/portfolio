@@ -57,20 +57,9 @@ export default async function OgImage() {
       >
         {/* top bar */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
+          <div style={{ display: "flex", alignItems: "center" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={logoDataUri} width={72} height={72} alt="" />
-            <div
-              style={{
-                fontFamily: "Newsreader",
-                fontWeight: 600,
-                fontSize: 30,
-                color: INK,
-                letterSpacing: -0.5,
-              }}
-            >
-              {site.shortName}
-            </div>
           </div>
           <div style={{ fontSize: 24, color: MUTED, letterSpacing: 0.5 }}>
             {site.url.replace("https://", "")}
