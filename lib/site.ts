@@ -5,7 +5,7 @@ export const site = {
   tagline: "Building software people love using.",
   description:
     "Braimah Destiny(Brad) is a product software engineer building scalable software, AI-powered experiences, developer tools, and products that solve real problems.",
-  url: "https://ibrad.xyz",
+  url: "https://www.worksbybrad.xyz",
   locale: "en_US",
   email: "worksbybrad@gmail.com",
   resume: "/resume.pdf",

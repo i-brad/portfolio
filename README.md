@@ -9,7 +9,7 @@ real-time systems — from MVP to scale.
 
 🌍 Based in Nigeria · 🎓 B.Sc. Computer Science, University of Benin
 
-- 🌐 Website — [ibrad.xyz](https://ibrad.xyz)
+- 🌐 Website — [worksbybrad.xyz](https://www.worksbybrad.xyz)
 - 🐙 GitHub — [@i-brad](https://github.com/i-brad)
 - 𝕏 — [@_ibrad](https://twitter.com/_ibrad)
 - 💼 LinkedIn — [braimah-destiny](https://www.linkedin.com/in/braimah-destiny)
@@ -42,7 +42,7 @@ real-time systems — from MVP to scale.
 
 ### About this repo
 
-This is the source for my personal site, **[ibrad.xyz](https://ibrad.xyz)** —
+This is the source for my personal site, **[worksbybrad.xyz](https://www.worksbybrad.xyz)** —
 an editorial portfolio built with **Next.js (App Router)**, **TypeScript**,
 **Tailwind CSS**, **Framer Motion**, and **MDX**, with light/dark themes and a
 `⌘K` command palette.
